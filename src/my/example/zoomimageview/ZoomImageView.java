@@ -134,7 +134,10 @@ public class ZoomImageView extends ImageView implements OnGlobalLayoutListener,O
 		}
 	}
 	
-	
+	/**
+	 * 获取图片当前的缩放倍数
+	 * @return
+	 */
 	private float getScale(){
 		float[] scale =new float[9];
 		scaleMatrix.getValues(scale);
