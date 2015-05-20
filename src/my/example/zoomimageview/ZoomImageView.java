@@ -144,6 +144,11 @@ public class ZoomImageView extends ImageView implements OnGlobalLayoutListener,O
 		return scale[Matrix.MSCALE_X];
 	}
 	
+	/**
+	 * 获取图片的宽高和left，right，top，Bottom
+	 * @return
+	 */
+	
 	private RectF getMatrixRectF(){
 		Matrix matrix=scaleMatrix;
 		RectF rect=new RectF();
